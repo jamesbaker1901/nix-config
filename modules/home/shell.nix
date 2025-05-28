@@ -24,6 +24,7 @@
       kns = "kubectl config set-context --current --namespace ";
       kd = "kubectl describe";
       gci = "aws sts get-caller-identity";
+      gpmr = "git push -o merge_request.create --set-upstream origin $(git symbolic-ref --short HEAD)"
 
     };
 
