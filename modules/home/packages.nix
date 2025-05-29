@@ -30,6 +30,7 @@
     kubecolor
     awscli2
     stern
+    gh
 
     # fonts
     font-awesome
