@@ -1,8 +1,5 @@
 { pkgs, ... }:
 {
-  # Nix packages to install to $HOME
-  #
-  # Search for packages here: https://search.nixos.org/packages
   home.packages = with pkgs; [
     omnix
 
@@ -42,11 +39,7 @@
     firefox
   ];
 
-  # Programs natively supported by home-manager.
-  # They can be configured in `programs.*` instead of using home.packages.
   programs = {
-    # Type `<ctrl> + r` to fuzzy search your shell history
-    fzf.enable = true;
     jq.enable = true;
   };
 }
