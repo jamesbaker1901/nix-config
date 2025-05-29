@@ -25,7 +25,7 @@
     # sre
     kubectl
     kubecolor
-    helm
+    kubernetes-helm
     kustomize
     awscli2
     stern
