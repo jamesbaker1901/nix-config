@@ -74,7 +74,7 @@
       enable = true;
     };
     noice = {
-      enable = true;
+      enable = false;
       settings.presets = {
         bottom_search = true;
         command_palette = true;
@@ -102,6 +102,11 @@
       enable = true;
       settings = {
         bigfile.enable = true;
+        notifier = {
+          enable = true;
+          style = "compact";
+        };
+        quickfile.enable = true;
       };
     };
 
