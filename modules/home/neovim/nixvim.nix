@@ -98,6 +98,11 @@
       };
     };
 
+    snacks = {
+      enable = true;
+
+    };
+
     # Dev
     lsp = {
       enable = true;
