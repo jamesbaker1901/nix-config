@@ -100,7 +100,7 @@
 
     snacks = {
       enable = true;
-      bigfile.enabled = true;
+      bigfile.enable = true;
 
     };
 
