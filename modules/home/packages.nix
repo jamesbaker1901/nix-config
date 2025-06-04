@@ -15,6 +15,7 @@
     eza
     tmux
     htop
+    clock-rs
 
     # nix
     cachix
