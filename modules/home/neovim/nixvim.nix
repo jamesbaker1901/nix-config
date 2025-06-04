@@ -100,8 +100,9 @@
 
     snacks = {
       enable = true;
-      bigfile.enable = true;
-
+      settings = {
+        bigfile.enable = true;
+      };
     };
 
     # Dev
