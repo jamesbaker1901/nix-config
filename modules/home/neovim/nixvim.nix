@@ -102,21 +102,20 @@
       enable = true;
       settings = {
         bigfile.enable = true;
-        notifier = {
-          enable = true;
-          style = "compact";
-        };
         quickfile.enable = true;
       };
     };
 
-    # Dev
+    blink-cmp = {
+      enable = true;
+    };
+
     lsp = {
       enable = true;
       servers = {
         hls = {
           enable = true;
-          installGhc = false; # Managed by Nix devShell
+          installGhc = false;
         };
         marksman.enable = true;
         nil_ls.enable = true;
@@ -129,6 +128,7 @@
     };
     lazygit.enable = true;
   };
+
   keymaps = [
     {
       key = ";";
