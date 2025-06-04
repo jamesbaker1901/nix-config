@@ -39,6 +39,7 @@
     spotify
     ncspot
     firefox
+    imagemagick
   ];
 
   programs = {
