@@ -29,6 +29,8 @@
     kubernetes-helm
     kustomize
     awscli2
+    google-cloud-sdk
+    cloudflare-cli
     stern
     gh
 
