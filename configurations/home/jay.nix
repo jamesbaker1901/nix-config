@@ -16,5 +16,5 @@ in
     email = "jbaker@roadie.com";
   };
 
-  home.stateVersion = "24.11";
+  home.stateVersion = "25.05";
 }
