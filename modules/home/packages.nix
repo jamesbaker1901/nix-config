@@ -4,6 +4,7 @@
     omnix
 
     # Unix tools
+    toybox
     ripgrep 
     fd
     tree
