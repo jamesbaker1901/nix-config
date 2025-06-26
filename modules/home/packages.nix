@@ -25,6 +25,8 @@
     nixpkgs-fmt
 
     # sre
+    argocd
+    istioctl
     kubectl
     kubecolor
     kubernetes-helm
