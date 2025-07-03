@@ -30,6 +30,7 @@
       envExtra = ''
         PATH=$HOME/bin:$HOME/.cargo/bin:$HOME/.npm-global/bin:$PATH
         source $HOME/git/context/src/context.sh
+        export TERM=screen-256color
       '';
 
       sessionVariables = {
