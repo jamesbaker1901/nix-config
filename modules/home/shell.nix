@@ -31,8 +31,8 @@
         PATH=$HOME/bin:$HOME/.cargo/bin:$HOME/.npm-global/bin:$PATH
         source $HOME/git/context/src/context.sh
         export TERM=screen-256color
-        bindkey "^[[1~" beginning-of-line
-        bindkey "^[[4~" end-of-line
+        bindkey "^[[H" beginning-of-line
+        bindkey "^[[F" end-of-line
       '';
 
       sessionVariables = {
