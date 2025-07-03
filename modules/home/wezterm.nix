@@ -13,12 +13,12 @@
         {
           key = 'Home',
           mods = ''',
-          action = wezterm.action.SendString '\027[1~'
+          action = wezterm.action.SendString '\\001'
         },
         {
           key = 'End',
           mods = ''',
-          action = wezterm.action.SendString '\027[4~'
+          action = wezterm.action.SendString '\\005'
         },
       },
     }
