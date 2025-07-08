@@ -21,9 +21,9 @@
         kubectl = "kubecolor";
         k = "kubectl";
         kp = "kubectl get po";
-        kns = "kubectl config set-context --current --namespace ";
         kd = "kubectl describe";
         gci = "aws sts get-caller-identity";
+        fp = "git push --set-upstream origin $(git symbolic-ref --short HEAD)";
         gpmr = "git push -o merge_request.create --set-upstream origin $(git symbolic-ref --short HEAD)";
       };
 
