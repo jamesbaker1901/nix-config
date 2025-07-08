@@ -32,6 +32,7 @@
     kubernetes-helm
     kustomize
     awscli2
+    ssm-session-manager-plugin
     google-cloud-sdk
     cloudflare-cli
     stern
