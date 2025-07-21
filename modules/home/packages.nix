@@ -37,6 +37,8 @@
     cloudflare-cli
     stern
     gh
+    openbao
+    pass
 
     # fonts
     font-awesome
