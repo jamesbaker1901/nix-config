@@ -18,6 +18,7 @@
     htop
     clock-rs
     alacritty
+    ghostty
 
     # nix
     cachix
