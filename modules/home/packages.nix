@@ -18,7 +18,7 @@
     htop
     clock-rs
     alacritty
-    ghostty
+    kitty
 
     # nix
     cachix
