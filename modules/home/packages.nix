@@ -17,6 +17,7 @@
     tmux
     htop
     clock-rs
+    alacritty
 
     # nix
     cachix
