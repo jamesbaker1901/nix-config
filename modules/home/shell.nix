@@ -33,9 +33,6 @@
         PATH=$HOME/bin:$HOME/.cargo/bin:$HOME/.npm-global/bin:$PATH
         source $HOME/git/context/src/context.sh
         source $HOME/git/kubetools/src/kubetools.sh
-        export TERM=screen-256color
-        bindkey "^[[H" beginning-of-line
-        bindkey "^[[F" end-of-line
       '';
 
       sessionVariables = {
