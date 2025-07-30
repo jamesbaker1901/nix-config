@@ -33,6 +33,7 @@
         PATH=$HOME/bin:$HOME/.cargo/bin:$HOME/.npm-global/bin:$PATH
         source $HOME/git/context/src/context.sh
         source $HOME/git/kubetools/src/kubetools.sh
+        eval $(/opt/homebrew/bin/brew shellenv)
       '';
 
       sessionVariables = {

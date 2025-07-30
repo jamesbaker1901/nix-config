@@ -54,10 +54,4 @@
       "krr"
     ];
   };
-
-  progrmas.zsh = {
-    envExtra = ''
-      eval $(/opt/homebrew/bin/brew shellenv)
-    '';
-  };
 }
