@@ -47,11 +47,18 @@
 
   homebrew = {
     enable = true;
+    user = "jay";
     taps = [
       "robusta-dev/homebrew-krr"
     ];
     brews = [
       "krr"
     ];
+  };
+
+  progrmas.zsh = {
+    envExtra = ''
+      eval $(/opt/homebrew/bin/brew shellenv)
+    '';
   };
 }
