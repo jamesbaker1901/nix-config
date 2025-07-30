@@ -43,6 +43,5 @@
       pkgs.colima
       pkgs.docker
       pkgs.iproute2mac
-      pkgs.brew
     ];
 }
