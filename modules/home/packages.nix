@@ -32,7 +32,6 @@
     kubectl
     kubecolor
     kubernetes-helm
-    krr
     kustomize
     awscli2
     ssm-session-manager-plugin
