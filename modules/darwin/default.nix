@@ -44,4 +44,11 @@
       pkgs.docker
       pkgs.iproute2mac
     ];
+
+  homebrew = {
+    enable = true;
+    brews = [
+      "krr"
+    ];
+  };
 }
