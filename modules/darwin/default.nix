@@ -1,6 +1,6 @@
 # This is your nix-darwin configuration.
 # For home configuration, see /modules/home/*
-{ pkgs, ... }:
+{ config, pkgs, ... }:
 {
   imports = [
     ./common
