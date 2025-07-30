@@ -47,6 +47,9 @@
 
   homebrew = {
     enable = true;
+    taps = [
+      "robusta-dev/homebrew-krr"
+    ];
     brews = [
       "krr"
     ];
