@@ -42,6 +42,7 @@
     openbao
     pass
     _1password-cli
+    _1password
 
     # fonts
     font-awesome
