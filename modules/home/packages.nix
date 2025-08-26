@@ -41,7 +41,7 @@
     gh
     openbao
     pass
-    1password-cli
+    _1password-cli
 
     # fonts
     font-awesome
