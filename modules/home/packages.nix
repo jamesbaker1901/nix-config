@@ -40,6 +40,7 @@
     stern
     gh
     openbao
+    infisical
     pass
     _1password-cli
     _1password
